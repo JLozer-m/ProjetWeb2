@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Eliot Olivencia</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Eliot Olivencia</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="contact-section">
+            <h2>Contactez-moi</h2>
+            <p>Pour toute question ou collaboration, vous pouvez m&#39;envoyer un message &#224; l&#39;aide du formulaire ci-dessous :</p>
+            <form action="mailto:eliot.olivencia@example.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="name">Nom&nbsp;:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email&nbsp;:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message&nbsp;:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+            <h3>Mes informations</h3>
+            <ul>
+                <li><strong>Email&nbsp;:</strong> <a href="mailto:eliot.olivencia@example.com">eliot.olivencia@example.com</a></li>
+                <li><strong>T&#233;l&#233;phone&nbsp;:</strong> +33 6 12 34 56 78</li>
+                <li><strong>LinkedIn&nbsp;:</strong> <a href="https://www.linkedin.com/in/eliot-olivencia" target="_blank">linkedin.com/in/eliot-olivencia</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
